@@ -3,13 +3,14 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta charset="UTF-8">
-    <title>Juegos Recomendados!</title>
+    <title>Contactanos📞</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/Gamewarecss.css" />
+    <link rel="stylesheet" href="css/Gamewarecss.css">
+
 </head>
 <body>
 <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
+    <div class="container-fluid">
             <a class="navbar-brand" href="#">Gameware</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -50,31 +51,29 @@
                 </div>
             </div>
         </div>
-    </nav>
-
+</nav>
     <main>
-        <h1> Juegos recomendados!</h1>
-        <h2>Skyrim</h2>
-        <p>Quinta entrega de la popular saga de videojuegos de rol, The Elder Scrolls, con forma de secuela directa de The Elder Scrolls IV: Oblivion. Ambientado en el reino de Skyrim, The Elder Scrolls V: Skyrim explora no sólo un nuevo escenario, mucho más encrespado y agresivo, sino también una nueva forma de entender las series.
-          Horas y horas de rol gracias a un Skyrim gigantesco, con generación de misiones aleatorias en forma de encargos secundarios por parte de las diferentes facciones, multitud de NPCs, diálogos, razas, combates y mucho más. TESO Skyrim es considerado un juego RPG imprescindible.
-        </p>
-        <div class="sky">
-            <img src="https://pa1.narvii.com/6887/1bced8a62f0a938c09ee9d4d65c4e84521abf322r1-455-262_hq.gif">
-        </div>
-        <h2>Mobile Legends</h2>
-        <p>es un juego multijugador online (MOBA) desarrollado y publicado por Moonton. Lanzado en 2016, el juego se ha vuelto popular en el sureste de Asia y fue uno de los juegos seleccionados para el primer evento con medallas de Esports en los Juegos del Sudeste Asiático 2019 desarrollado en Filipinas.
-        </p>
-        <div class="mob">
-            <img src="https://pa1.narvii.com/7204/b10a3239b9dd05a1a2a2d2e8550ac2a5da7397b6r1-656-368_hq.gif">
-        </div>
-        <h2>Halo</h2>
-        <p>es una franquicia de videojuegos de ciencia ficción creada y desarrollada por Bungie Studios hasta Halo Reach, y gestionada ahora por 343 Industries, propiedad de Xbox Game Studios. La serie se centra en una guerra interestelar entre la humanidad y una alianza teocrática de alienígenas conocidos como Covenant.
-        </p>
-        <div class="halo">
-            <img src="https://media0.giphy.com/media/JIraK0THaC0ymqkS7W/giphy.gif">
-        </div>
-      
-    </main>
+        <section class="contact">            
+          <h1>Envianos tu mensaje!</h1>
+          <form action="">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name">
+            <label for="lastname">Apellido</label>
+            <input type="text" name="lastname" id="lastname">
+            <label for="type">Tipo de documento</label>
+            <select name="type" id="type">
+              <option value="CC">Cédula de ciudadanía</option>
+              <option value="CE">Cédula de extrajería</option>
+              <option value="TI">Tarjeta de identidad</option>
+            </select>
+            <label for="email">Correo</label>
+            <input type="email" name="email" id="email">
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+      </main>
     <footer>
         <section class="buttons">
             <a href="https://web.whatsapp.com/"><img src="whatsapp.png" alt="" class="wa"></a>
